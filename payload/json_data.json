@@ -1,0 +1,15 @@
+{
+    "payload_create_user": {
+    "name": "morpheus",
+    "job": "leader"
+},
+
+    "payload_register_no_passwor":{
+    "email": "eve.holt@reqres.in",
+    "password": ""
+},
+    "payload_register_user":{
+        "email": "eve.holt@reqres.in",
+        "password": "pistol"
+    }
+}

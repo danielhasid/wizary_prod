@@ -1,0 +1,25 @@
+{
+    "register_user_schema": {
+    "id":{"type":"number"},
+    "token":{"type":"string"}
+    },
+    "get_user_schema":{
+            "data": {"type": "dict",
+              "schema":
+              {
+                "id": {"type": "number"},
+                "email": {"type": "string"},
+                "first_name": {"type": "string"},
+                "last_name": {"type": "string"},
+                "avatar": {"type": "string"}
+              }
+            },
+            "support": {"type": "dict",
+              "schema":
+              {
+                "url": {"type": "string"},
+                "text": {"type": "string"}
+              }
+            }
+
+}}
