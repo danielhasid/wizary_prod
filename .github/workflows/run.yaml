@@ -2,10 +2,10 @@ name: Automate run
 on:
   workflow_dispatch:
 
-  jobs:
-    print hello:
-      runs-on: ubuntu-latest
+jobs:
+  print hello:
+    runs-on: ubuntu-latest
 
-    steps:
+  steps:
       - name: Run api regression
         run: echo "Hello World"
