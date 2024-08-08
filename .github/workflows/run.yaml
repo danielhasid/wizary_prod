@@ -3,9 +3,9 @@ on:
   workflow_dispatch:
 
 jobs:
-  print hello:
+  print_hello:
     runs-on: ubuntu-latest
 
-  steps:
-      name: Run api regression
-      run: echo "Hello World"
+    steps:
+      - name: Run api regression
+        run: echo "Hello World"
