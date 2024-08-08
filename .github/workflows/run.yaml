@@ -1,4 +1,4 @@
-name: Automate run
+name: Hello World
 on:
   workflow_dispatch:
 
