@@ -8,4 +8,4 @@ jobs:
 
   steps:
       -name: Run api regression
-        run: echo "Hello World"
+      run: echo "Hello World"
