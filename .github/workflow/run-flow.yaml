@@ -1,9 +1,0 @@
-name: Automate run
-on:
-  workflow_dispatch:
-
-  basic-ubuntu-20:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Run api regression
-        run: echo "Hello World"
