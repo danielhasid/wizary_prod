@@ -3,4 +3,4 @@
 
 
 # Run pytest with the qa1 marker
-./pytest -m qa1
+pytest -m qa1
