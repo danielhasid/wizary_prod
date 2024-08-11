@@ -1,7 +1,7 @@
 
 import json
 import pytest
-
+#BAL
 @pytest.fixture(scope="session")
 def get_payload():
     with open("./payload/json_data.json", "r") as file:
@@ -13,4 +13,3 @@ def get_schema():
     with open("./payload/expected_schem.json", "r") as file:
         data = json.load(file)
         return data
-    
